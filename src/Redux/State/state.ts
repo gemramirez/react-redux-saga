@@ -16,6 +16,6 @@ export const cartData = (data = [], action: any) => {
         data=[]
         return [...data]
       default:
-         return [];
+         return data;
   }
 };

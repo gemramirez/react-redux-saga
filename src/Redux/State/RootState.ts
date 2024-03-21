@@ -2,9 +2,11 @@
 //send to react js app
 import { combineReducers } from "redux";
 import { cartData } from "./state";
+import { productData } from "./productReducer";
 
 export default combineReducers({
    cartData,
+   productData
  })
 
 
