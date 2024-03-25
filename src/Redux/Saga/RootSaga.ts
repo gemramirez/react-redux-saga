@@ -8,7 +8,7 @@ import { productData } from "../State/productReducer";
 
 export default combineReducers({
    cartData,
-   productData
+   productData,
  })
 
 
